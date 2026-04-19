@@ -18,7 +18,7 @@ Recognizing that global optimization can often lead to "losers" at specific hubs
 
 * **Decision Variables:**
     * $x_{r} \in \{0, 1\}$ : Binary variable; 1 if route solution $r$ is selected, 0 otherwise.
-    * $y_{cj} \in \mathbb{Z}^+$ : Integer variable; number of buses of capacity $j$ assigned to club $c$.
+    * $y_{cj} \in \mathbb{Z}$ : Integer variable; number of buses of capacity $j$ assigned to club $c$.
     * $z \ge 0$ : Auxiliary variable capturing the maximum localized seat loss.
 
 * **Core Constraints:**
