@@ -1,7 +1,7 @@
 # Bus Fleet Transit Optimization: Multi-Objective Integer Programming
 
 ## Project Overview
-This project focuses on the strategic reallocation of a 39-bus transit fleet for a student organization. Using **Python** and the **Gurobi**, the system minimized individual service time of each student and then went more in depth, making sure there werent any major trade-offs to complete the task.
+This project focuses on the strategic reallocation of a 39-bus transit fleet for a student organization. Using **Python** and the **Gurobi**. The model first minimizes average student service time, then incorporates fairness constraints to ensure no single club has a disproportionate capacity loss.
 
 ### Phase 1: Baseline Efficiency
 The primary goal was to minimize the average individual service time for the entire student population across multiple clubs.
