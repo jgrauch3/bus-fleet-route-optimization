@@ -33,3 +33,10 @@ Recognizing that global optimization can often lead to "losers" at specific hubs
 * `docs/`: Technical reports detailing mathematical proofs and sensitivity analysis results.
 * `data/`: Mock data representation
 
+## Contributions
+This project was a collaborative effort completed at the **Georgia Institute of Technology** for ISYE 3133 (Optimization).
+
+**My Contributions:**
+* **System Modeling:** Defined and formalized the core **decision variables** ($x_r, y_{cj}$) and **objective functions** for both system efficiency and fairness models
+* **Constraint Engineering:** Designed and implemented the mathematical **constraint statements** ensuring demand satisfaction, fleet capacity limits, and resource alignment
+* **Linearization:** Aided in the translation of  "Minimax" fairness goals into linear constraints ($z$) to ensure model feasibility within the Gurobi solver
